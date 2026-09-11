@@ -1850,8 +1850,8 @@
               </div>
 
               <div class="field">
-                <label for="geminiModel">Gemini model</label>
-                <input id="geminiModel" value="gemini-3.6-flash" />
+                <label for="geminiModel">AI model</label>
+                <input id="geminiModel" value="ai-3.6-flash" />
               </div>
 
               <div class="button-row">
@@ -2074,7 +2074,7 @@
       if (!APP.apiKey) {
         navigate("settings");
         showApiMessage(
-          "Please add your Gemini API key in Settings before using AI features.",
+          "Please add your API key in Settings before using AI features.",
           "error"
         );
         return false;
